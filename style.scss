@@ -1,0 +1,119 @@
+@import "node_modules/bulma/bulma.sass";
+
+html,
+body {
+  height: 100%;
+  margin: 0px;
+}
+#__next {
+  height: 102%;
+  background: #26547c;
+}
+.container {
+  height: 100%;
+}
+
+#containerTalk {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 50px;
+  margin: 3em 0;
+  padding: 2em;
+}
+
+#containerContacts {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  margin: 3em 0;
+  padding: 2em;
+  margin-right: 1em;
+}
+
+.textMessages {
+  height: 520px;
+  overflow: scroll;
+  padding-top: 2em;
+}
+
+.containerMyChats {
+  display: flex;
+  justify-content: flex-end;
+  text-align: end;
+}
+.containerChats {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.myMessage {
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  margin: 1em 1em;
+  padding: 2em 2em;
+
+  p {
+    color: white;
+  }
+  h4 {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+}
+
+.messagesContainer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  padding-bottom: 5em;
+  width: 70%;
+  input {
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.22);
+    border: 0px;
+    color: white;
+  }
+  input::placeholder {
+    color: white;
+  }
+
+  button {
+    height: 50px;
+    margin-left: 1em;
+    background-color: rgba(0, 0, 0, 0.22);
+    border: 0px;
+    color: white;
+  }
+  button:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.titleContacts {
+  color: white;
+  font-size: 28px;
+  padding-bottom: 1em;
+}
+
+.listContacts {
+  color: white;
+  font-size: 20px;
+  p {
+    padding: 0.5em 0;
+    b {
+      padding-left: 1.5em;
+    }
+  }
+  p:hover {
+    cursor: pointer;
+    font-weight: bolder;
+  }
+}
+
+.titleGroup {
+  color: white;
+  padding-bottom: 0.6em;
+  padding-left: 1em;
+  font-size: 34px;
+}
